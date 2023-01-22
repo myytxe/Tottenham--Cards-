@@ -1,0 +1,244 @@
+* {
+    font-family: "Neuton", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("Spurs.jpeg");
+    background-position: center;
+    background-size: 18%;
+}
+
+.container {
+    width: 1150px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card1 {
+    position: relative;
+    padding: 10px;
+    width: 240px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.container .card1::before {
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #021859;
+    border-right: 20px solid #021859;
+}
+
+.content1 {
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    transition: all;
+}
+
+.card1 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30);
+    opacity: 1;
+}
+
+.card1:hover {
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+}
+
+
+.content1 h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+#read_button1 {
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    background-color:#021859;
+    color: #021859;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .card2 {
+    position: relative;
+    padding: 10px;
+    width: 240px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.container .card2::before {
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #021859;
+    border-right: 20px solid #021859;
+}
+
+.content2 {
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    transition: all;
+}
+
+.card2 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30);
+    opacity: 1;
+}
+
+.card2:hover {
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+}
+
+
+.content2 h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+#read_button2 {
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    background-color:#021859;
+    color: #021859;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.container .card3 {
+    position: relative;
+    padding: 10px;
+    width: 240px;
+    background-color: white;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.322);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.container .card3::before {
+    content: '';
+    position: absolute;
+    top:0;
+    right: 0;
+    border: 20px solid transparent;
+    border-top: 20px solid #021859;
+    border-right: 20px solid #021859;
+}
+
+.content3 {
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    transition: all;
+}
+
+.card3 .content {
+    padding: 0 20px;
+    overflow: hidden;
+    height: 0;
+    transition: all .5s;
+    transform: translateY(30);
+    opacity: 1;
+}
+
+.card3:hover {
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+}
+
+
+.content3 h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+    position: relative;
+}
+
+#read_button3 {
+    border: none;
+    padding: 2px;
+    border-radius: 10px;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    background-color:#021859;
+    color: #021859;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.card1.active .content1 {
+    height: auto;
+}
+
+.card1.active .content1::before {
+    visibility: hidden;
+}
+
+.card2.active .content2 {
+    height: auto;
+}
+
+.card2.active .content2::before {
+    visibility: hidden;
+}
+
+.card3.active .content3 {
+    height: auto;
+}
+
+.card3.active .content3::before {
+    visibility: hidden;
+}
