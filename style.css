@@ -64,7 +64,7 @@ body {
 }
 
 .card1:hover {
-    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859);
 }
 
 
@@ -129,7 +129,7 @@ body {
 }
 
 .card2:hover {
-    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859);
 }
 
 
@@ -194,7 +194,7 @@ body {
 }
 
 .card3:hover {
-    background-image: linear-gradient(#ffffff, #F2F2F2, #022859, #021F59);
+    background-image: linear-gradient(#ffffff, #F2F2F2, #022859);
 }
 
 
